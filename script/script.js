@@ -7,7 +7,9 @@ const navSlide = () => {
   // Toggle Nav
   burger.addEventListener("click", () => {
     nav.classList.toggle("nav-active");
-   
+    
+    // Add Background
+    nav.style.backgroundColor = 'whitesmoke';
    
     // Animate Links
     navLinks.forEach((link, index) => {
