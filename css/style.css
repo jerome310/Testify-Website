@@ -476,6 +476,9 @@ a {
 
 /* Mobile Media Queries */
 @media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
   .header-laptop {
     width: 100%;
     text-align: center;
