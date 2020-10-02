@@ -475,10 +475,7 @@ a {
 }
 
 /* Mobile Media Queries */
-@media only screen and (max-width: 600px) {
-  nav {
-    
-  }
+@media only screen and (max-width: 768px) {
   .header-laptop {
     width: 50%;
     text-align: center;
