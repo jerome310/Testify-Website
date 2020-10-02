@@ -443,6 +443,7 @@ a {
   .header-text {
     text-align: center;
     padding: 0 20px;
+    margin-left: 0;
   }
 
   .header-laptop {
