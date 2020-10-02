@@ -450,10 +450,30 @@ a {
   }
 
   .header-rectangle {
-   display: none;
+    display: none;
+  }
+
+  /* Display none classes */
+  .testcode-bootcamp-section {
+    display: none;
+  }
+
+  .our-goals-section {
+    display: none;
+  }
+
+  .our-community {
+    display: none;
+  }
+
+  .footer {
+    display: none;
   }
 }
 
 /* Mobile Media Queries */
 @media only screen and (max-width: 600px) {
+  .header-laptop {
+    width: 50%;
+  }
 }
