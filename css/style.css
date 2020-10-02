@@ -473,7 +473,15 @@ a {
 
 /* Mobile Media Queries */
 @media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
   .header-laptop {
-    width: 50%;
+    width: 100%;
+    position: none;
+    right: none;
+  }
+  .header-laptop img {
+   display: none;
   }
 }
