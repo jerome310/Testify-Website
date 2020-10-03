@@ -9,7 +9,11 @@ const navSlide = () => {
     nav.classList.toggle("nav-active");
     
     // Add Background
-    nav.style.backgroundColor = 'whitesmoke';
+    if (nav.style.backgroundColor) {
+      nav.style.backgroundColor = '';
+    } else {
+      nav.style.backgroundColor = 'whitesmoke';
+    }
    
     // Animate Links
     navLinks.forEach((link, index) => {

@@ -61,8 +61,8 @@ nav {
     flex-direction: column;
     width: 40%;
     align-items: center;
-    /* transform: translateX(100%); */
-    transition: transform 0.5s ease-in;
+    /* transform: translateX(100%);
+    transition: transform 0.5s ease-in; */
   }
   .nav-links li {
     opacity: 0;
