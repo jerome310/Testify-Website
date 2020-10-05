@@ -624,18 +624,13 @@ a {
   }
   .our-community-images img {
     width: 100%;
+    margin: 15% 0 0;
   }
   .header-letters1 {
-    position: relative;
-    top: 519px;
-    z-index: 1;
-    width: 60%;
+   display: none;
   }
   .header-letters2 {
-    position: relative;
-    top: 500px;
-    z-index: 1;
-    width: 60%;
+    display: none;
   }
   .footer {
     background: #0b529f;
