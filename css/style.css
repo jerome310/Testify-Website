@@ -621,9 +621,23 @@ a {
     margin: 0 auto;
     line-height: 3.5vh;
     padding-top: 20px;
-}
+  }
   .our-community-images img {
     width: 100%;
+  }
+  .header-letters1 {
+    display: none;
+    position: relative;
+    top: 330px;
+    z-index: 1;
+    width: 55%;
+  }
+  .header-letters2 {
+    display: none;
+    position: relative;
+    top: 330px;
+    z-index: 1;
+    width: 55%;
   }
   .footer {
     background: #0b529f;
