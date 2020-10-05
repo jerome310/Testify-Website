@@ -55,14 +55,12 @@ nav {
   .nav-links {
     position: absolute;
     right: 0;
-    top: 15vh;
+    top: 10vh;
     height: 90vh;
     display: flex;
     flex-direction: column;
     width: 40%;
     align-items: center;
-    /* transform: translateX(100%);
-    transition: transform 0.5s ease-in; */
   }
   .nav-links li {
     opacity: 0;
@@ -240,6 +238,7 @@ a {
 .testcode-images-section2 {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .mini-bulb-rightside-section {
@@ -438,50 +437,205 @@ a {
     display: block;
     padding-bottom: 50%;
   }
-
   .header-text {
     text-align: center;
     padding: 0 20px;
     margin-left: 0;
   }
-
+  .header-text h1 {
+    padding: 0 65px;
+  }
+  .header-text p {
+    padding: 20px 80px 40px;
+  }
   .header-laptop {
     position: none;
     right: none;
-    width: 50%;
+    width: 60%;
   }
-
   .header-rectangle {
     display: none;
   }
 
-  /* Display none classes */
+  /* start woman section */
   .testcode-bootcamp-section {
+    background-color: white;
+    margin-top: 100px;
+  }
+  .testcode-bootcamp-section {
+    display: block;
+  }
+  .pencil-leftside-section {
     display: none;
   }
+  .woman-image {
+    margin: 0 auto;
+    width: 60%;
+    object-fit: cover;
+  }
+  .testcode-right-section {
+    width: 80%;
+  }
+  .testcode-rightside-text-section h1 {
+    padding-bottom: 20px;
+  }
+  .testcode-rightside-text-section p,
+  a {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .testcode-rightside-text-section p {
+    line-height: 4vh;
+    width: 70%;
+    margin: 10px auto;
+  }
+  .testcode-rightside-button {
+    margin: 10px auto 0;
+  }
+  .testcode-images-section2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .mini-bulb-rightside-section {
+    object-fit: contain;
+    margin-left: inherit;
+  }
+  .mini-laptop-rightside-section {
+    object-fit: contain;
+    margin-right: inherit;
+    margin-top: 0px;
+    width: 108px;
+  }
+  /* end woman section */
 
+  /* start our goals section */
   .our-goals-section {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+  }
+  .our-goals-section h1 {
+    margin-top: 75px;
+    padding-top: 50px;
+  }
+  .our-goal-div1 {
+    margin: 20px auto;
+  }
+  .our-goal-div2 {
+    margin: 20px auto;
+  }
+  .our-goal-div3 {
+    margin: 20px auto;
+  }
+  .our-goal-div4 {
+    margin: 20px auto;
+  }
+  .our-goal-blue-ribbon {
     display: none;
   }
+  /* end our goals section */
 
+  /* start of dude images */
   .our-community {
-    display: none;
+    margin-top: 0%;
+    text-align: center;
+    padding: 50px 0 0 0;
+    background-color: white;
   }
-
+  .our-community-images {
+    display: block;
+  }
+  .header-letters1 {
+    position: relative;
+    top: 330px;
+    z-index: 1;
+    width: 55%;
+  }
+  .header-letters2 {
+    position: relative;
+    top: 330px;
+    z-index: 1;
+    width: 55%;
+  }
+  /* end of dude images */
   .footer {
-    display: none;
+    background: #0b529f;
+    display: flex;
+    color: #ffffff;
+    padding: 0px 0;
+    margin-top: 10%;
+    padding: 5% 0;
+  }
+  .social-media-icons {
+    margin: 6% 0% 0 0;
   }
 }
 
 /* Mobile Media Queries */
 @media only screen and (max-width: 768px) {
   .header-laptop {
-    width: 50%;
-    text-align: center;
+    width: 60%;
     position: absolute;
-    right: 40%;
+    right: 18%;
   }
   .header-laptop img {
+    width: 100%;
+  }
+  .our-goal-div1 {
+    width: 80%;
+    padding-bottom: 10%;
+  }
+  .our-goal-div1 p {
+    line-height: 2;
+  }
+  .our-goal-div2 {
+    width: 80%;
+    padding-bottom: 10%;
+  }
+  .our-goal-div2 p {
+    line-height: 2;
+  }
+  .our-goal-div3 {
+    width: 80%;
+    padding-bottom: 10%;
+  }
+  .our-goal-div3 p {
+    line-height: 2;
+  }
+  .our-goal-div4 {
+    width: 80%;
+    padding-bottom: 10%;
+  }
+  .our-goal-div4 p {
+    line-height: 2;
+  }
+  .our-community h1 {
+    line-height: 6vh;
+    padding: 0 30px;
+  }
+  .footer {
+    background: #0b529f;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    margin-top: 10%;
+    padding: 5% 0;
+    text-align: center;
+  }
+  .overview-container {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  .company {
+    width: 50%;
+  }
+  .connect-with-us {
+    width: 50%;
+  }
+  .social-media-icons {
+    margin: 6% 0% 0 0;
     width: 50%;
   }
 }
