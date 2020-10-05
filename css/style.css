@@ -580,6 +580,9 @@ a {
     position: absolute;
     right: 18%;
   }
+  .header-text p {
+    padding: 20px 40px 40px;
+}
   .header-laptop img {
     width: 100%;
   }
