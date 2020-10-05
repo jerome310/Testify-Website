@@ -582,7 +582,7 @@ a {
   }
   .header-text p {
     padding: 20px 40px 40px;
-}
+  }
   .header-laptop img {
     width: 100%;
   }
@@ -590,7 +590,10 @@ a {
     line-height: 4vh;
     width: 90%;
     margin: 10px auto;
-}
+  }
+  .our-goals-par {
+    padding: 0 50px;
+  }
   .our-goal-div1 {
     width: 80%;
     padding-bottom: 10%;
@@ -635,7 +638,7 @@ a {
     margin: 15% 0 0;
   }
   .header-letters1 {
-   display: none;
+    display: none;
   }
   .header-letters2 {
     display: none;
