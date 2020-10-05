@@ -615,6 +615,16 @@ a {
     line-height: 6vh;
     padding: 0 30px;
   }
+  .our-community p {
+    color: #4e5a6c;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 3.5vh;
+    padding-top: 20px;
+}
+  .our-community-images img {
+    width: 100%;
+  }
   .footer {
     background: #0b529f;
     display: flex;
