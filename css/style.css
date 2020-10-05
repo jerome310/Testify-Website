@@ -626,16 +626,15 @@ a {
     width: 100%;
   }
   .header-letters1 {
-    display: none;
     position: relative;
-    top: 330px;
+    /* top: 330px; */
+
     z-index: 1;
     width: 55%;
   }
   .header-letters2 {
-    display: none;
     position: relative;
-    top: 330px;
+    /* top: 330px; */
     z-index: 1;
     width: 55%;
   }
