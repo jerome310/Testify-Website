@@ -627,16 +627,15 @@ a {
   }
   .header-letters1 {
     position: relative;
-    /* top: 330px; */
-
+    top: 0%;
     z-index: 1;
-    width: 55%;
+    width: 60%;
   }
   .header-letters2 {
     position: relative;
-    /* top: 330px; */
+    top: 0%;
     z-index: 1;
-    width: 55%;
+    width: 60%;
   }
   .footer {
     background: #0b529f;
